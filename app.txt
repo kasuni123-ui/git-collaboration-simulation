@@ -1,0 +1,12 @@
+Application: Student Management System
+
+Main Application Logic
+
+1. Start application
+2. Validate user input
+3. Process student information
+4. Display student information
+5. End application
+
+Current Status:
+Basic student management functionality is available.
