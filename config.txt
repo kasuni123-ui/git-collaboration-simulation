@@ -1,6 +1,7 @@
 Application Configuration
 
 Application Name: Student Management System
-Version: 1.0
+Version: 1.1
 Environment: Development
-Logging: Basic
+Logging: Detailed
+Student Registration: Enabled
