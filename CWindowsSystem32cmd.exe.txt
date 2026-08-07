@@ -1,0 +1,825 @@
+Microsoft Windows [Version 10.0.26200.8973]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git add .
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   app.txt
+        new file:   config.txt
+        new file:   docs/notes.md
+        new file:   utils.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git commit -m "Initial project setup"
+[main (root-commit) 0c37ca1] Initial project setup
+ 5 files changed, 36 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 app.txt
+ create mode 100644 config.txt
+ create mode 100644 docs/notes.md
+ create mode 100644 utils.txt
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git commit -m "Initial project setup"
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 892 bytes | 178.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kasuni123-ui/git-collaboration-simulation.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>^Xgit commit -m "Initial project setup"
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git commit -m "Initial project setup"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git commit -m "Initial project setup
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git branch
+* main
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git checkout -b dev1-feature-a
+Switched to a new branch 'dev1-feature-a'
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git push -u origin dev1-feature-a
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'dev1-feature-a' on GitHub by visiting:
+remote:      https://github.com/kasuni123-ui/git-collaboration-simulation/pull/new/dev1-feature-a
+remote:
+To https://github.com/kasuni123-ui/git-collaboration-simulation.git
+ * [new branch]      dev1-feature-a -> dev1-feature-a
+branch 'dev1-feature-a' set up to track 'origin/dev1-feature-a'.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git checkout -b dev2-feature-b
+Switched to a new branch 'dev2-feature-b'
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git push -u origin dev2-feature-b
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'dev2-feature-b' on GitHub by visiting:
+remote:      https://github.com/kasuni123-ui/git-collaboration-simulation/pull/new/dev2-feature-b
+remote:
+To https://github.com/kasuni123-ui/git-collaboration-simulation.git
+ * [new branch]      dev2-feature-b -> dev2-feature-b
+branch 'dev2-feature-b' set up to track 'origin/dev2-feature-b'.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git checkout -b dev3-bugfix
+Switched to a new branch 'dev3-bugfix'
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git push -u origin dev3-bugfix
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'dev3-bugfix' on GitHub by visiting:
+remote:      https://github.com/kasuni123-ui/git-collaboration-simulation/pull/new/dev3-bugfix
+remote:
+To https://github.com/kasuni123-ui/git-collaboration-simulation.git
+ * [new branch]      dev3-bugfix -> dev3-bugfix
+branch 'dev3-bugfix' set up to track 'origin/dev3-bugfix'.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git branch
+  dev1-feature-a
+  dev2-feature-b
+* dev3-bugfix
+  main
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git branch
+  dev1-feature-a
+  dev2-feature-b
+* dev3-bugfix
+  main
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>cd C:\Users\K S Rajapaksha\git-collaboration-simulation
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git checkout dev1-feature-a
+Switched to branch 'dev1-feature-a'
+Your branch is up to date with 'origin/dev1-feature-a'.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git branch
+* dev1-feature-a
+  dev2-feature-b
+  dev3-bugfix
+  main
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>code .
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch dev1-feature-a
+Your branch is up to date with 'origin/dev1-feature-a'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   app.txt
+        modified:   docs/notes.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch dev1-feature-a
+Your branch is up to date with 'origin/dev1-feature-a'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   app.txt
+        modified:   docs/notes.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git add app.txt docs/notes.md
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch dev1-feature-a
+Your branch is up to date with 'origin/dev1-feature-a'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   app.txt
+        modified:   docs/notes.md
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git commit -m "Add student search feature"
+[dev1-feature-a 4d67b23] Add student search feature
+ 2 files changed, 17 insertions(+), 3 deletions(-)
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 796 bytes | 796.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kasuni123-ui/git-collaboration-simulation.git
+   0c37ca1..4d67b23  dev1-feature-a -> dev1-feature-a
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch dev1-feature-a
+Your branch is up to date with 'origin/dev1-feature-a'.
+
+nothing to commit, working tree clean
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git log --oneline
+4d67b23 (HEAD -> dev1-feature-a, origin/dev1-feature-a) Add student search feature
+0c37ca1 (origin/main, origin/dev3-bugfix, origin/dev2-feature-b, main, dev3-bugfix, dev2-feature-b) Initial project setup
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git pull origin main
+From https://github.com/kasuni123-ui/git-collaboration-simulation
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git checkout dev2-feature-b
+Switched to branch 'dev2-feature-b'
+Your branch is up to date with 'origin/dev2-feature-b'.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git branch
+  dev1-feature-a
+* dev2-feature-b
+  dev3-bugfix
+  main
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>code .
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch dev2-feature-b
+Your branch is up to date with 'origin/dev2-feature-b'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   app.txt
+        modified:   config.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git add app.txt docs/notes.md
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch dev2-feature-b
+Your branch is up to date with 'origin/dev2-feature-b'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   app.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   config.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch dev2-feature-b
+Your branch is up to date with 'origin/dev2-feature-b'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   app.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   config.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git add app.txt docs/config.txt
+fatal: pathspec 'docs/config.txt' did not match any files
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch dev2-feature-b
+Your branch is up to date with 'origin/dev2-feature-b'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   app.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   config.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git add app.txt docs/config.txt
+fatal: pathspec 'docs/config.txt' did not match any files
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>config.txt
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git add config.txt
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch dev2-feature-b
+Your branch is up to date with 'origin/dev2-feature-b'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   app.txt
+        modified:   config.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git commit -m "Add student registration feature"
+[dev2-feature-b 98ad626] Add student registration feature
+ 2 files changed, 11 insertions(+), 5 deletions(-)
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 685 bytes | 685.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/kasuni123-ui/git-collaboration-simulation.git
+   0c37ca1..98ad626  dev2-feature-b -> dev2-feature-b
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git pull origin main
+From https://github.com/kasuni123-ui/git-collaboration-simulation
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git merge dev1-feature-a
+Updating 0c37ca1..4d67b23
+Fast-forward
+ app.txt       | 11 ++++++++---
+ docs/notes.md |  9 +++++++++
+ 2 files changed, 17 insertions(+), 3 deletions(-)
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git push origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kasuni123-ui/git-collaboration-simulation.git
+   0c37ca1..4d67b23  main -> main
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git merge dev2-feature-b
+Auto-merging app.txt
+CONFLICT (content): Merge conflict in app.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+        modified:   config.txt
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   app.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+        modified:   config.txt
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   app.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+        modified:   config.txt
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   app.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+        modified:   config.txt
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   app.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>
+C:\Users\K S Rajapaksha\git-collaboration-simulation>
+C:\Users\K S Rajapaksha\git-collaboration-simulation>
+C:\Users\K S Rajapaksha\git-collaboration-simulation>
+C:\Users\K S Rajapaksha\git-collaboration-simulation>
+C:\Users\K S Rajapaksha\git-collaboration-simulation>
+C:\Users\K S Rajapaksha\git-collaboration-simulation>
+C:\Users\K S Rajapaksha\git-collaboration-simulation>
+C:\Users\K S Rajapaksha\git-collaboration-simulation>
+C:\Users\K S Rajapaksha\git-collaboration-simulation>
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git add config.txt/app.txt
+fatal: pathspec 'config.txt/app.txt' did not match any files
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation> app.txt
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git add app.txt
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   app.txt
+        modified:   config.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>code .
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   app.txt
+        modified:   config.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   app.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation> app.txt
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git add app.txt
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   app.txt
+        modified:   config.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git commit -m "Merge dev2 feature and resolve app conflict"
+[main 9147086] Merge dev2 feature and resolve app conflict
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 535 bytes | 535.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/kasuni123-ui/git-collaboration-simulation.git
+   4d67b23..9147086  main -> main
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git grep -n "<<<<<<<\|=======\|>>>>>>>"
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git log --oneline --graph --all
+*   9147086 (HEAD -> main, origin/main) Merge dev2 feature and resolve app conflict
+|\
+| * 98ad626 (origin/dev2-feature-b, dev2-feature-b) Add student registration feature
+* | 4d67b23 (origin/dev1-feature-a, dev1-feature-a) Add student search feature
+|/
+* 0c37ca1 (origin/dev3-bugfix, dev3-bugfix) Initial project setup
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git log --oneline --graph --all
+*   9147086 (HEAD -> main, origin/main) Merge dev2 feature and resolve app conflict
+|\
+| * 98ad626 (origin/dev2-feature-b, dev2-feature-b) Add student registration feature
+* | 4d67b23 (origin/dev1-feature-a, dev1-feature-a) Add student search feature
+|/
+* 0c37ca1 (origin/dev3-bugfix, dev3-bugfix) Initial project setup
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git checkout dev3-bugfix
+Switched to branch 'dev3-bugfix'
+Your branch is up to date with 'origin/dev3-bugfix'.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch dev3-bugfix
+Your branch is up to date with 'origin/dev3-bugfix'.
+
+nothing to commit, working tree clean
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>code .
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch dev3-bugfix
+Your branch is up to date with 'origin/dev3-bugfix'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   app.txt
+        modified:   utils.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git add app.txt/ utils.txt
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch dev3-bugfix
+Your branch is up to date with 'origin/dev3-bugfix'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   utils.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   app.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git add app.txt
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>app.txt
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git add app.txt
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch dev3-bugfix
+Your branch is up to date with 'origin/dev3-bugfix'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   app.txt
+        modified:   utils.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git add app.txt utils.txt
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch dev3-bugfix
+Your branch is up to date with 'origin/dev3-bugfix'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   app.txt
+        modified:   utils.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git commit -m "Fix input validation and improve utilities"
+[dev3-bugfix 5dc33f2] Fix input validation and improve utilities
+ 2 files changed, 20 insertions(+), 5 deletions(-)
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 697 bytes | 697.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/kasuni123-ui/git-collaboration-simulation.git
+   0c37ca1..5dc33f2  dev3-bugfix -> dev3-bugfix
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch dev3-bugfix
+Your branch is up to date with 'origin/dev3-bugfix'.
+
+nothing to commit, working tree clean
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git log --oneline
+5dc33f2 (HEAD -> dev3-bugfix, origin/dev3-bugfix) Fix input validation and improve utilities
+0c37ca1 Initial project setup
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git merge dev3-bugfix
+Auto-merging app.txt
+CONFLICT (content): Merge conflict in app.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git checkout dev3-bugfix
+app.txt: needs merge
+error: you need to resolve your current index first
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git checkout dev3-bugfix
+app.txt: needs merge
+error: you need to resolve your current index first
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+        modified:   utils.txt
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   app.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>code app.txt
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git grep -n "<<<<<<<\|=======\|>>>>>>>"
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git add app.txt
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   app.txt
+        modified:   utils.txt
+
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git commit -m "Merge dev3 bugfix and resolve app conflict"
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (26/26), done.
+Total 26 (delta 9), reused 0 (delta 0), pack-reused 0 (from 0)
+Enumerating cruft objects: 4, done.
+Traversing cruft objects: 8, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+[main 17d896b] Merge dev3 bugfix and resolve app conflict
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 536 bytes | 178.00 KiB/s, done.
+Total 3 (delta 2), reused 1 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/kasuni123-ui/git-collaboration-simulation.git
+   9147086..17d896b  main -> main
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git grep -n "<<<<<<<\|=======\|>>>>>>>"
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git log --oneline --graph --all
+*   17d896b (HEAD -> main, origin/main) Merge dev3 bugfix and resolve app conflict
+|\
+| * 5dc33f2 (origin/dev3-bugfix, dev3-bugfix) Fix input validation and improve utilities
+* |   9147086 Merge dev2 feature and resolve app conflict
+|\ \
+| * | 98ad626 (origin/dev2-feature-b, dev2-feature-b) Add student registration feature
+| |/
+* / 4d67b23 (origin/dev1-feature-a, dev1-feature-a) Add student search feature
+|/
+* 0c37ca1 Initial project setup
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git grep -n "<<<<<<<\|=======\|>>>>>>>"
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git log --oneline --graph --all
+*   17d896b (HEAD -> main, origin/main) Merge dev3 bugfix and resolve app conflict
+|\
+| * 5dc33f2 (origin/dev3-bugfix, dev3-bugfix) Fix input validation and improve utilities
+* |   9147086 Merge dev2 feature and resolve app conflict
+|\ \
+| * | 98ad626 (origin/dev2-feature-b, dev2-feature-b) Add student registration feature
+| |/
+* / 4d67b23 (origin/dev1-feature-a, dev1-feature-a) Add student search feature
+|/
+* 0c37ca1 Initial project setup
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git branch -a
+  dev1-feature-a
+  dev2-feature-b
+  dev3-bugfix
+* main
+  remotes/origin/dev1-feature-a
+  remotes/origin/dev2-feature-b
+  remotes/origin/dev3-bugfix
+  remotes/origin/main
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git grep -n "<<<<<<<\|=======\|>>>>>>>"
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git log --oneline --graph --all
+*   17d896b (HEAD -> main, origin/main) Merge dev3 bugfix and resolve app conflict
+|\
+| * 5dc33f2 (origin/dev3-bugfix, dev3-bugfix) Fix input validation and improve utilities
+* |   9147086 Merge dev2 feature and resolve app conflict
+|\ \
+| * | 98ad626 (origin/dev2-feature-b, dev2-feature-b) Add student registration feature
+| |/
+* / 4d67b23 (origin/dev1-feature-a, dev1-feature-a) Add student search feature
+|/
+* 0c37ca1 Initial project setup
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git branch -a
+  dev1-feature-a
+  dev2-feature-b
+  dev3-bugfix
+* main
+  remotes/origin/dev1-feature-a
+  remotes/origin/dev2-feature-b
+  remotes/origin/dev3-bugfix
+  remotes/origin/main
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git log dev1-feature-a --oneline
+4d67b23 (origin/dev1-feature-a, dev1-feature-a) Add student search feature
+0c37ca1 Initial project setup
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git log dev2-feature-b --oneline
+98ad626 (origin/dev2-feature-b, dev2-feature-b) Add student registration feature
+0c37ca1 Initial project setup
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git log dev3-bugfix --oneline
+5dc33f2 (origin/dev3-bugfix, dev3-bugfix) Fix input validation and improve utilities
+0c37ca1 Initial project setup
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git merge dev2-feature-b
+Already up to date.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git merge dev3-bugfix
+Already up to date.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>app.txt
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git grep -n "<<<<<<<\|=======\|>>>>>>>"
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git log --oneline --graph --all
+*   17d896b (HEAD -> main, origin/main) Merge dev3 bugfix and resolve app conflict
+|\
+| * 5dc33f2 (origin/dev3-bugfix, dev3-bugfix) Fix input validation and improve utilities
+* |   9147086 Merge dev2 feature and resolve app conflict
+|\ \
+| * | 98ad626 (origin/dev2-feature-b, dev2-feature-b) Add student registration feature
+| |/
+* / 4d67b23 (origin/dev1-feature-a, dev1-feature-a) Add student search feature
+|/
+* 0c37ca1 Initial project setup
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git merge dev2-feature-b
+Already up to date.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git merge dev3-bugfix
+Already up to date.
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git log --oneline --graph --all
+*   17d896b (HEAD -> main, origin/main) Merge dev3 bugfix and resolve app conflict
+|\
+| * 5dc33f2 (origin/dev3-bugfix, dev3-bugfix) Fix input validation and improve utilities
+* |   9147086 Merge dev2 feature and resolve app conflict
+|\ \
+| * | 98ad626 (origin/dev2-feature-b, dev2-feature-b) Add student registration feature
+| |/
+* / 4d67b23 (origin/dev1-feature-a, dev1-feature-a) Add student search feature
+|/
+* 0c37ca1 Initial project setup
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\K S Rajapaksha\git-collaboration-simulation>
