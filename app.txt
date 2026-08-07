@@ -6,12 +6,17 @@ Main Application Logic
 2. Validate user input
 3. Process student information
 4. Add student search feature
-5. Display student information
-6. End application
+5. Add student registration feature
+6. Display student information
+7. End application
 
 Feature A:
 A student search feature has been added.
 Users can search for students using their student ID.
 
+Feature B:
+A student registration feature has been added.
+Users can register new students into the system.
+
 Current Status:
-Student management and search functionality are available.
+Student management, search, and registration functionality are available.
