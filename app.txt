@@ -3,8 +3,8 @@ Application: Student Management System
 Main Application Logic
 
 1. Start application
-2. Validate user input
-3. Process student information
+2. Validate and sanitize user input
+3. Process student information safely
 4. Add student search feature
 5. Add student registration feature
 6. Display student information
@@ -18,5 +18,8 @@ Feature B:
 A student registration feature has been added.
 Users can register new students into the system.
 
+Bug Fix:
+Input validation and sanitization have been improved to prevent invalid student records.
+
 Current Status:
-Student management, search, and registration functionality are available.
+The application supports student search and registration with improved input validation and safer data processing.

@@ -1,0 +1,11 @@
+Utility Functions
+
+validateInput()
+sanitizeInput()
+displayMessage()
+formatStudentData()
+
+Bug Fix:
+Input validation and sanitization have been improved.
+
+These utilities support the main application and help prevent invalid data.
